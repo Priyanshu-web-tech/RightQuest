@@ -1,0 +1,79 @@
+/* RealG.css */
+.outer{
+  background: url('https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+}
+
+.real-g-container {
+ 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .game-content{
+    margin-top: 4rem;
+  }
+  /* Add this CSS for the responsive GIF */
+.game-gif {
+  display: flex;
+  justify-content: flex-end; /* Align the GIF to the right */
+}
+
+.game-gif img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; /* Adjust the max height as needed */
+}
+
+  
+  .real-g-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff; /* Blue color for the heading */
+  }
+  
+  .game {
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .game h2 {
+    font-size: 24px;
+    color: #333; /* Dark text color for headings */
+  }
+  
+  .game p {
+    margin: 10px 0;
+    color: #555; /* Slightly darker text color for content */
+  }
+  
+  .game ol {
+    padding-left: 20px;
+  }
+  
+  /* Style the game elements with different background colors */
+  .game:nth-child(odd) {
+    background-color: #ffcc80; /* Light orange background color */
+    opacity: 0.8;
+
+  }
+  
+  .game:nth-child(even) {
+    background-color: #aaffc3; /* Light green background color */
+    opacity: 0.8;
+
+  }
+  
+  /* Hover effect for game sections */
+  .game:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    transition: transform 0.3s ease-in-out;
+  }
+  

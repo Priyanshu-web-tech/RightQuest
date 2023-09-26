@@ -3,8 +3,6 @@
 html,
 body {
     scroll-behavior: smooth;
-    background-color: #111;
-    color: #fff;
 }
 
 * {
@@ -21,4 +19,5 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: inherit;
 }

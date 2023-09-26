@@ -1,0 +1,63 @@
+/* About.css */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b8e0e3; /* Light blue background */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-title h2 {
+  font-size: 3rem; /* Increase font size */
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  column-gap: 20px; /* Add space between columns */
+  align-items: center;
+  max-width: 900px; /* Increase text width */
+  margin-top: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.about-text {
+  text-align: left; /* Align text to the left within its column */
+}
+
+.about-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px; /* Adjust the margin for spacing */
+  color: #555; /* Slightly darker text color */
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .about-title h2 {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .about-content {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+    row-gap: 20px; /* Add space between rows */
+    padding: 20px; /* Adjust padding for spacing on small screens */
+  }
+
+  .about-description {
+    font-size: 1rem; /* Decrease font size for small screens */
+  }
+}
